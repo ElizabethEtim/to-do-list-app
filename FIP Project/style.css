@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8d7d7dc;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #006ba6;
+    border-radius: 8px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffbc42;
+    font-family: cursive;
+    text-decoration: underline;
+    font-size: 40px;
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+  
+  form input, form select, form button {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 16px;
+    background-color: #e6e2be;
+  }
+  
+  form button {
+    background-color: #8a2851;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #c20855;
+  }
+  
+  #task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .task-item span {
+    margin-right: 10px;
+  }
+  
+  .done {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  button.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.delete-btn:hover {
+    background-color: darkred;
+  }
